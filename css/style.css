@@ -1,0 +1,49 @@
+@import url("categories-header/header.css");
+@import url("categories-header/categories.css");
+body {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: white;
+  background-color: whitesmoke;
+  background-image: url("categories-header/background-image.jpeg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+} 
+
+footer {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: black;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-button {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .section-button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+
+

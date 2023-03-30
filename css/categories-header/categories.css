@@ -1,0 +1,56 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px;
+}
+
+.section-button {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.section-button:hover {
+  transform: translateY(-5px);
+}
+
+.section-button h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#cinema {
+  background-image: url("images/cinema-picture.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#music {
+  background-image: url("images/music-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+#literature {
+  background-image: url("images/literature-picture.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px;
+}
